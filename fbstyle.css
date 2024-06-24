@@ -1,0 +1,93 @@
+*{
+    margin: 0;
+    padding: 0;
+    border: 0;
+    box-sizing: border-box;
+}
+body{
+    background: #F0F2F5;
+    height: 600px;
+}
+h1{
+    color: #1877F2;
+    text-align: center;
+    padding: 35px;
+
+}
+h4{
+    text-align: center;
+    font-size: 20px;
+    color: #665959;
+    padding-bottom: 18px;
+}
+.log-box{
+    background: #fff;
+    width: 400px;
+    text-align: center;
+    padding: 30px 10px;
+    margin: 0 auto;
+    border-radius: 10px;
+    box-shadow: 1px 1px 13px -5px black;
+}
+.log-box input{
+    border: 2px solid black;
+    border-radius: 10px;
+    padding: 5px 10px;
+    width: 300px;
+    margin: 8px;
+    height: 42px;
+    font-size: 17px;
+}
+
+#mail,#pswd:hover{
+    border: 2px solid #1877F2;
+}
+#btn{
+    width: 300px;
+    background-color: #1877f2cc;
+    color: #fff;
+    padding: 6px;
+    margin: 10px;
+    border-radius: 10px;
+    height: 42px;
+    font-size: 18px;
+    font-weight: bold;
+    cursor: pointer;
+}
+
+#btn:hover{
+    background-color: #1877F2;
+    opacity: 1;
+}
+
+
+hr{
+    border: 1px dashed #e5ad8c;
+    margin: 26px;
+}
+#create{
+    background-color: #5cc846;
+    padding: 10px 15px;
+    color: #fff;
+    font-weight: bold;
+    font-size: 18px;
+    border-radius: 10px;
+    cursor: pointer;
+}
+
+#create:hover{
+    background-color: #42b72a;
+    opacity: 1;
+}
+
+p{
+    text-align: center;
+    margin-top: 41px;
+}
+#clk{
+    text-decoration: none;
+    color: black;
+    font-weight: bold;
+    cursor: default;
+}
+
